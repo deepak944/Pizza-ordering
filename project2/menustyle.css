@@ -1,0 +1,66 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Pizza menu styles */
+.pizza-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Pizza item styles */
+.pizza-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Pizza image styles */
+.pizza-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Pizza title styles */
+.pizza-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Pizza description styles */
+.pizza-item p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Pizza price styles */
+.pizza-item p:last-child {
+    font-weight: bold;
+    color: #333;
+}
